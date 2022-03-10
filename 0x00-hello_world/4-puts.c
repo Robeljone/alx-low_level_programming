@@ -2,8 +2,6 @@
 #include <string.h>
 int main()
 {
-   char string[40];
-   strcpy(str, "This is a test string");
-   puts(string);
+   puts("\"Programming is like building a multilingual puzzle");
    return 0;
 }
