@@ -11,22 +11,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
         if(n>=0)
           {
-        putchar('n');
-        putchar('\n');
-        putchar("is a Positive number");
+        printf("%d is a Positive number \n", n);
           }
         else if(n==0)
          {
-        putchar('n');
-        putchar('\n');
-        putchar("is 0");
-
+         printf("the number is zero");
          }
         else
          {
-        putchar('n');
-        putchar('\n');
-        putchar("is a Negative number");
+        printf("%d is a Negative number \n", n);
          }
 	/* your code goes there */
 	return (0);
