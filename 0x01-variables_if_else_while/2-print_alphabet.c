@@ -5,7 +5,7 @@
 */
 int main(void)
 {
-char letter = 'a';
+int letter = 'a';
 while (letter <= 'z')/*print a to f*/
 {
 putchar(letter);
