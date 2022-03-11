@@ -8,16 +8,15 @@ int main(void)
 {
 int lowercase,x;
 for (x = 'a'; x <= 'z'; x++)
-  {
-    lowercase = x;
-    if (lowercase != 'e' && lowercase != 'q')
-    {
-        putchar(lowercase);
-    }
-    else
-    {
-        
-    }
-  }
+{
+lowercase = x;
+if (lowercase != 'e' && lowercase != 'q')
+{
+putchar(lowercase);
+}
+else
+{        
+}
+}
 return (0);
 }
