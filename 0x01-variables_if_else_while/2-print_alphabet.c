@@ -6,10 +6,9 @@
 int main(void)
 {
 char letter = 'a';
-while (letter <= 'f')/*print a to f*/
+while (letter <= 'z')/*print a to f*/
 {
 putchar(letter);
-putchar('\n');
 letter++;
 }
 return (0);
