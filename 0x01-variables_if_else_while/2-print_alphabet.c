@@ -5,8 +5,8 @@
 */
 int main(void)
 {
-int lowercase;
-for (int x = 'A'; x <= 'Z'; x++)
+int lowercase,x;
+for (x = 'A'; x <= 'Z'; x++)
   {
     lowercase = tolower(x);
     putchar(lowercase);
