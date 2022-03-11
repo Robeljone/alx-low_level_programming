@@ -27,7 +27,6 @@ putchar(' ');
 else
 {
 putchar('\0');
-putchar('\0');
 }
 }
 }
