@@ -13,6 +13,10 @@ int main(void)
           {
         printf("%d is a Positive number \n", n);
           }
+        else if(n==0)
+         {
+         printf("the number is zero");
+         }
         else
          {
         printf("%d is a Negative number \n", n);
