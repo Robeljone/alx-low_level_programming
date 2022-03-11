@@ -9,7 +9,7 @@ char letter = 'a';
 while (letter <= 'f')/*print a to f*/
 {
 putchar(letter);
-puthchar ('\n');
+putchar('\n');
 letter++;
 }
 return (0);
