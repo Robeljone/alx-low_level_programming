@@ -11,15 +11,22 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
         if(n>=0)
           {
-        putchar("%d is a Positive number \n", n);
+        putchar(n);
+        putchar('\n');
+        putchar("is a Positive number");
           }
         else if(n==0)
          {
-         putchar("the number is zero");
+        putchar(n);
+        putchar('\n');
+        putchar("is 0");
+
          }
         else
          {
-        putchar("%d is a Negative number \n", n);
+        putchar(n);
+        putchar('\n');
+        putchar("is a Negative number");
          }
 	/* your code goes there */
 	return (0);
