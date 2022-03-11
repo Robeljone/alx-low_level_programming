@@ -5,7 +5,7 @@
 */
 int main(void)
 {
-int lowercase,x;
+int x;
 for (x = 'a'; x <= 'z'; x++)
   {
     putchar(x);
