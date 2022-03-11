@@ -1,27 +1,28 @@
 #include <stdio.h>
 /**
-* main - Entry point
- *
-* Return: Always 0 (Success)
+*main - Entry point, print 00 to 99 using putchar
+*Return: Always 0 (Success)
 */
 int main(void)
 {
-int x, j;
-for (x = 0; x <= 8; x++)
+int x;
+int y;
+for (x = '0'; x <= '9'; x++)
 {
-for (j = 0; j <= 8; j++)
+for (y = '0'; y <= '9'; y++)
 {
-if (x < j)
+if (x < y)
 {
 putchar(x);
-putchar(j);
-}
-if (!(x == '8' && j == '8'))
+putchar(y);
+if (!(x == '8' && y == '9'))
 {
 putchar(',');
 putchar(' ');
 }
 }
 }
+}
+putchar('\n');
 return (0);
 }
