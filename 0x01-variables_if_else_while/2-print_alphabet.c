@@ -6,10 +6,9 @@
 int main(void)
 {
 int lowercase,x;
-for (x = 'A'; x <= 'Z'; x++)
+for (x = 'a'; x <= 'z'; x++)
   {
-    lowercase = tolower(x);
-    putchar(lowercase);
+    putchar(x);
   }
 return (0);
 }
