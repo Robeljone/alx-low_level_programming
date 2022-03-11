@@ -11,15 +11,15 @@ for (x = 0; x <= 8; x++)
 {
 for (j = 1; j < 8; j++)
 {
-if (x == j)
+if (x < j)
 {
+putchar(x);
+putchar(j);
 }
-else if (x != j)
+if (!(x == '8' && j == '8'))
 {
-putchar (x);
-putchar (j);
-putchar (',');
-putchar (' ');
+putchar(',');
+putchar(' ');
 }
 }
 }
