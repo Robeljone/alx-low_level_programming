@@ -15,8 +15,12 @@ if (lowercase != 'e' && lowercase != 'q')
 putchar(lowercase);
 }
 else
-{        
+{
+        
 }
+}
+{
+putchar('\n');
 }
 return (0);
 }
