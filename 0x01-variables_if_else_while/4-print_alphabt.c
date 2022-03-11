@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-int lowercase,x;
+int lowercase, x;
 for (x = 'a'; x <= 'z'; x++)
 {
 lowercase = x;
@@ -16,7 +16,6 @@ putchar(lowercase);
 }
 else
 {
-        
 }
 }
 {
