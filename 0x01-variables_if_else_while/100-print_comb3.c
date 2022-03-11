@@ -14,9 +14,9 @@ for (j = 1; j < 8; j++)
 if (x != j)
 {
 putchar(x);
+putchar(j);
 putchar(',');
 putchar(' ');
-putchar(j);
 }
 }
 }
