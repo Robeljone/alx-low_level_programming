@@ -19,13 +19,10 @@ if (x < y && y < z)
 putchar(x);
 putchar(y);
 putchar(z);
-if (!(x == '8' && y == '9' && z == '9'))
+if (!(x == '9' && y == '9' && z == '9'))
 {
 putchar(',');
 putchar(' ');
-}
-if (x == y && y == z)
-{
 }
 }
 }
