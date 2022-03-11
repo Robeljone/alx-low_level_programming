@@ -1,17 +1,16 @@
 #include <stdio.h>
 /**
-* main - Entry point
- *
-* Return: Always 0 (Success)
+* main - random numbers
+* Return: last digit
 */
 int main(void)
 {
-int lowercase;
-for (int x = 'A'; x <= 'Z'; x++)
-  {
-    lowercase = tolower(x);
-    putchar(lowercase);
-    puthchar('\n');
-  }
+char letter = 'a';
+while (letter <= 'f')/*print a to f*/
+{
+putchar(letter);
+puthchar ('\n');
+letter++;
+}
 return (0);
 }
