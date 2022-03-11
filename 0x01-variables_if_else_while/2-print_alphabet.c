@@ -5,11 +5,11 @@
 */
 int main(void)
 {
-int lowercase;
-for (int x = 'A'; x <= 'Z'; x++)
-  {
-    lowercase = tolower(x);
-    putchar(lowercase);
-  }
+char letter = 'a';
+while (letter <= 'z')/*print a to f*/
+{
+putchar(letter);
+letter++;
+}
 return (0);
 }
