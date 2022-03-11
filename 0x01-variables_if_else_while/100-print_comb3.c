@@ -15,6 +15,7 @@ if (x != j)
 {
 putchar(x);
 putchar(',');
+putchar(' ');
 putchar(j);
 }
 }
