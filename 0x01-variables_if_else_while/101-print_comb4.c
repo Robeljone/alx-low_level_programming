@@ -19,7 +19,7 @@ if (x < y && y < z)
 putchar(x);
 putchar(y);
 putchar(z);
-if (!(x == '7' && y == '9' && z == '9'))
+if (!(x == '7' && y == '8' && z == '9'))
 {
 putchar(',');
 putchar(' ');
@@ -28,5 +28,6 @@ putchar(' ');
 }
 }
 }
+putchar('\n');
 return (0);
 }
