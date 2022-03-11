@@ -6,10 +6,10 @@
 */
 int main(void)
 {
-int x;
+int x, j;
 for (x = 0 ; x <= 8; x++)
 {
-for(int j=1;j<8;j++){
+for (j=1;j<8;j++){
 if(x!=j){
 putchar(x);
 putchar(',');
