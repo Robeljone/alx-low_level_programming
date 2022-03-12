@@ -21,7 +21,9 @@ if (x < y && y < z)
 {
 putchar(x);
 putchar(y);
+putchar(' ');
 putchar(z);
+putchar(w);
 if (!(x == '7' && y == '8' && z == '9'))
 {
 putchar(',');
