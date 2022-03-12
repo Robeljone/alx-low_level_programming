@@ -20,7 +20,7 @@ for (w = '0'; w <= '9'; w++)
 if (x < y && z < w)
 {
 putchar(x);
-putchar(y);
+putchar(x);
 putchar(' ');
 putchar(z);
 putchar(w);
