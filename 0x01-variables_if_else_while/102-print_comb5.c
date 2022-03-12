@@ -19,8 +19,8 @@ for (w = '0'; w <= '9'; w++)
 {
 if (x < y && z < w)
 {
-putchar(y);
 putchar(x);
+putchar(y);
 putchar(' ');
 putchar(z);
 putchar(w);
