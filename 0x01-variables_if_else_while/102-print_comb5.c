@@ -17,14 +17,14 @@ for (z = '0'; z <= '9'; z++)
 {
 for (w = '0'; w <= '9'; w++)
 {
-if (x < y && y < z)
+if (x < y && z < w)
 {
-putchar(x);
 putchar(y);
+putchar(x);
 putchar(' ');
 putchar(z);
 putchar(w);
-if (!(x == '7' && y == '8' && z == '9'))
+if (!(x == '8' && y == '9'))
 {
 putchar(',');
 putchar(' ');
