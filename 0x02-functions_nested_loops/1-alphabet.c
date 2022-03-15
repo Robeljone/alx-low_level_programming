@@ -5,7 +5,7 @@ char x='a';
 while(x != 'z')
 {
 putchar(x);
-x++
+x++;
 }
 putchar('\n');
 }
