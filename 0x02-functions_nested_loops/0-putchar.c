@@ -1,14 +1,12 @@
 #include <stdio.h>
 int main(void)
 {
-int x,y;
+int x;
 char ch[] = "_putchar";
-for (x=0; x <= 9; x++)
+for (x=0; x < 8; x++)
 {
-for (y=0; y<strlen(ch); y++)
-{
-putchar(ch[y]);
+putchar(ch[x]);
 }
-}
+putchar('\n');
 return (0);
 }
