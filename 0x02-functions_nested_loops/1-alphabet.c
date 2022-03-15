@@ -4,7 +4,7 @@ int main(void)
 {
 print_alpahbet();
 }
-void print _alphabet(void)
+int void print _alphabet(void)
 {
 char x='a';
 while(x != 'z')
