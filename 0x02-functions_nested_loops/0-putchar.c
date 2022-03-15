@@ -1,11 +1,12 @@
-.#include <stdio.h>
+#include <stdio.h>
 int main(void)
 {
-int x;
-for (x=0; x<10; x++)
+int x, y;
+char ch[] = "_putchar";
+for (x=0; x<=9; x++)
 {
-putchar(x);
-putchar('\n');
+putchar(ch[x]);
 }
+putchar('\n')
 return (0);
 }
