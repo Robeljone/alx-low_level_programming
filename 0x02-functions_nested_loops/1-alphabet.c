@@ -1,17 +1,16 @@
-#include <stdio.h>
-
-int main(void)
-{
-print_alphabet();
-return (0);
-}
+#include "holberton.h"
+/**
+* print_alphabet - does my stuff
+* user input
+*
+* alphabet
+*/
 void print_alphabet(void)
 {
-char x='a';
-while(x != 'z')
+char ch;
+for (ch = 'a' ; ch <= 'z' ; ch++)
 {
-_putchar(x);
-x++;
+_putchar(ch);
 }
 _putchar('\n');
 }
