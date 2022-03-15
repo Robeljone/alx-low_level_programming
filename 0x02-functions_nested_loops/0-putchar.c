@@ -7,6 +7,6 @@ for (x=0; x<=9; x++)
 {
 putchar(ch[x]);
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
