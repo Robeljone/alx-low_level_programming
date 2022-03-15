@@ -1,10 +1,10 @@
-#include <stdio.h>
+.#include <stdio.h>
 int main(void)
 {
-int _putchar;
-for (_putchar=0; _putchar<10; _putchar++)
+int x;
+for (x=0; x<10; x++)
 {
-putchar("putchar");
+putchar(x);
 putchar('\n');
 }
 return (0);
