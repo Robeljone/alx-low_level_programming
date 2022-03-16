@@ -5,10 +5,11 @@
  *
  * Return: Always 0.
  */
-int print_last_digit(int)
+int print_last_digit(int n)
 {
 int r;
 int m;
+int x = n % 10;
 m = print_last_digit(98);
 _putchar(m);
 r = print_last_digit(-1024);
