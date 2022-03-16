@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-* is lower case - does my stuff
+* _islower - does my stuff
 * @c: user input
 *
-*return lower
-**/
+* Return: lower
+*/
 int _isalpha(int c)
 {
 if (c >= 'A' && c <= 'Z')
