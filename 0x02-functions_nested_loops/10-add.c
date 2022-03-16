@@ -1,9 +1,16 @@
 #include "main.h"
 /**
-* main - check the code
-*
-* Return: Always 0.
-*/
+ *add - adds two integers
+ *
+ *Description:a+b
+ *
+ *@x:input
+ *
+ *@y:input
+ *
+ *Return:sum of input int
+ *
+ **/
 int add(int x, int y)
 {
 int sum;
