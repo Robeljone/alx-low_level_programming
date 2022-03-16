@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 /**
 * print_alphabet - does my stuff
 * user input
@@ -15,8 +15,3 @@ putchar(ch);
 putchar('\n'); 
 }
 
-int main(void)
-{
-void print_alphabet();
-return (0);
-}
