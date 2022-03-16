@@ -7,6 +7,6 @@ char y;
 for (x = 0; x<9; x++)
 for (y = 'a'; y<='z'; y++)
 _putchar(y);
-putchar('\n');
+_putchar('\n');
 }
 
