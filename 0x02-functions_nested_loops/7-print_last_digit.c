@@ -1,12 +1,26 @@
 #include "main.h"
-
 /**
- * main - check the code
+ *print_last_digit - prints last digit
  *
- * Return: Always 0.
+ *@n:input
+ *
+ *Description: prints last digit
+ *
+ *Return:returns last value
+ *
  */
-int main(void)
+int print_last_digit(int n)
 {
-    jack_bauer();
-    return (0);
+	int last;
+
+	if (n >= 0)
+	{
+		last = n % 10;
+	}
+	else if (n < 0)
+	{
+		last = -(n % 10);
+	}
+	_putchar('0' + last);
+	return (last);
 }
