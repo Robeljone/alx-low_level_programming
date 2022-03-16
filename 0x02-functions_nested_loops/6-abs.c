@@ -1,8 +1,8 @@
 #include "main.h"
 
-int _abs(int)
+int _abs(int x)
 {
-int x;
-x = _abs();
+int y;
+y = _abs(x);
 _putchar(x);
 }
