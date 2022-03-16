@@ -5,11 +5,13 @@
  *
  * Return: Always 0.
  */
-
 int print_last_digit(int m)
 {
-int r = m % 10;
-print_last_digit(98);
+int r;
+int m;
+m = print_last_digit(98);
+_putchar(m);
+r = print_last_digit(-1024);
 _putchar('0' + r);
 _putchar('\n');
 return (0);
