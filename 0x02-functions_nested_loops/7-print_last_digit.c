@@ -5,7 +5,7 @@
  *
  * Return: Always 0.
  */
-int print_last_digit(int m)
+int print_last_digit(int n)
 {
 int r;
 int m;
