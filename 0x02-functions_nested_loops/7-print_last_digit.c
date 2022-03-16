@@ -6,11 +6,11 @@
  * Return: Always 0.
  */
 
-int print_last_digit(int x)
+int print_last_digit(int)
 {
 int r;
 int m;
-m = print_last_digit(x);
+m = print_last_digit(98);
 _putchar(m);
 print_last_digit(0);
 r = print_last_digit(-1024);
