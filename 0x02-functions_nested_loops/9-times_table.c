@@ -17,6 +17,7 @@ for (y = 0; y <= 9; y++)
 z = x * y;
 if (z == 0)
 {
+_putchar(' ');
 _putchar('0' + z);
 }
 else if(z >= 10)
