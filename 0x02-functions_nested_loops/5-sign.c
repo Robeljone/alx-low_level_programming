@@ -1,9 +1,10 @@
 #include "main.h"
 /**
-* _print_sign - does stuff
+* print_sign - does my stuff
+* @n: its mine damnit
 *
-* Return sign
-**/
+* Return: sign of number
+*/
 int print_sign(int n)
 {
 if (n > 0)
