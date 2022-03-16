@@ -6,14 +6,9 @@
  * Return: Always 0.
  */
 
-int main(void)
+int print_last_digit(int m)
 {
-int r;
-int m;
-m = print_last_digit(98);
-_putchar(m);
-print_last_digit(0);
-r = print_last_digit(-1024);
+int r = m % 10;
 _putchar('0' + r);
 _putchar('\n');
 return (0);
