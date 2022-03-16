@@ -1,9 +1,8 @@
 #include "main.h"
 /**
-* jack_bauer - does my stuff
-* @void: its mine damnit
+* main - check the code
 *
-* Return: Does my stuff explained.
+* Return: Always 0.
 */
 int add(int x, int y)
 {
