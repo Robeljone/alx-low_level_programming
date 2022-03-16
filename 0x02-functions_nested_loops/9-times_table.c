@@ -29,7 +29,7 @@ else
 {
 _putchar(' ');
 _putchar(' ');
-_putchar('0' + result);
+_putchar('0' + z);
 }
 if (j != 9)
 {
