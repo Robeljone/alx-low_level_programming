@@ -15,10 +15,27 @@ for (x = 0; x <= 9; x++)
 for (y = 0; y <= 9; y++)
 {
 z = x * y;
-_putchar(z);
-_putchar(',');
-_putchar(' ');
+if (z == 0)
+{
+_putchar('0' + z);
 }
-_putchar ('\n');
+else if(z >= 10)
+{
+_putchar(' ');
+_putchar('0' + (z / 10));
+_putchar('0' + (z % 10));
+}
+else
+{
+_putchar(' ');
+_putchar(' ');
+_putchar('0' + result);
+}
+if (j != 9)
+{
+_putchar (',');
+}
+}
+_putchar('\n');
 }
 }
