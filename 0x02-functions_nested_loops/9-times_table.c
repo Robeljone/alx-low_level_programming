@@ -31,7 +31,7 @@ _putchar(' ');
 _putchar(' ');
 _putchar('0' + z);
 }
-if (z != 9)
+if (y != 9)
 {
 _putchar (',');
 }
