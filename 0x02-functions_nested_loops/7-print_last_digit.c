@@ -10,8 +10,7 @@ int print_last_digit(int x)
 {
 int r;
 int m;
-_putchar(x);
-m = print_last_digit(98);
+m = print_last_digit(x);
 _putchar(m);
 print_last_digit(0);
 r = print_last_digit(-1024);
