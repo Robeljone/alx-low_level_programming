@@ -1,8 +1,9 @@
 #include "main.h"
 /**
-* main - check the code.
+* print_alphabet_x10 - does my stuff
+* print the alphabet
 *
-* Return: Always 0.
+* ten times
 */
 void print_alphabet_x10(void)
 {
