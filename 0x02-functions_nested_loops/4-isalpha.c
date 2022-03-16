@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _islower - does my stuff
+* _isalpha - does my stuff
 * @c: user input
 *
 * Return: lower
