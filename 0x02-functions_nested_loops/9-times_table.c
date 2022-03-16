@@ -1,42 +1,43 @@
 #include "main.h"
 /**
-* jack_bauer - does my stuff
-* @void: its mine damnit
-*
-* Return: Does my stuff explained.
-*/
+ *times_table - prints multiplication table
+ *
+ *Description: timestable
+ *
+ *Return: void
+ *
+ */
 void times_table(void)
 {
-int x;
-int y;
-int z;
-for (x = 0; x <= 9; x++)
+int i;
+int result;
+for (i = 0; i <= 9; i++)
 {
-for (y = 0; y <= 9; y++)
+int j;
+for (j = 0; j <= 9; j++)
 {
-z = x * y;
-if (z == 0)
+result = i * j;
+if (j == 0)
 {
-_putchar('0' + z);
-_putchar(' ');
+_putchar('0' + result);
 }
-else if(z >= 10)
+else if (result >= 10)
 {
 _putchar(' ');
-_putchar('0' + (z / 10));
-_putchar('0' + (z % 10));
+_putchar('0' + (result / 10));
+_putchar('0' + (result % 10));
 }
 else
 {
 _putchar(' ');
 _putchar(' ');
-_putchar('0' + z);
+_putchar('0' + result);
 }
-if (y != 9)
+if (j != 9)
 {
-_putchar (',');
+_putchar(',');
 }
-}
+}	
 _putchar('\n');
 }
 }
