@@ -6,10 +6,12 @@
 * _abs - does my stuff
 * @m: user input
 *
+* parameter x
+*
 * Return: absolute.
 */
-int _abs(int x)
+int _abs(int m)
 {
-int result = abs(x);
+int result = abs(m);
 return (result);
 }
