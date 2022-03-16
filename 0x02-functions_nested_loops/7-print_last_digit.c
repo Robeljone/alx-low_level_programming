@@ -5,11 +5,11 @@
  * Return: Always 0.
  */
 
-int main(void)
-
+int print_last_digit(int x)
 {
 int r;
 int m;
+_putchar(x);
 m = print_last_digit(98);
 _putchar(m);
 print_last_digit(0);
