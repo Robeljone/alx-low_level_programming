@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * _puts -change value using the pointer address
 *
