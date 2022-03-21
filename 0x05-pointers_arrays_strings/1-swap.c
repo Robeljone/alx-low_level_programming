@@ -13,5 +13,5 @@ int Tempb;
 Tempa = *a;
 Tempb = *b;
 *a=Tempb;
-*b=Tepa;
+*b=Tempa;
 }
