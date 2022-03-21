@@ -12,9 +12,9 @@ int length = 0;
 while (*str != '\0')
 {
 temp = *str;
-_putchar(temp);
+putchar(temp);
 length++;
 str++;
 }
-_putchar('\n');
+putchar('\n');
 }
