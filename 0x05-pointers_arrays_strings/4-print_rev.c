@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * print_rev -change value using the pointer address
 *
@@ -13,7 +14,7 @@ i++;
 }
 while (--i >= 0)
 {
-putchar(s[i]);
+_putchar(s[i]);
 }
-putchar('\n');
+_putchar('\n');
 }
