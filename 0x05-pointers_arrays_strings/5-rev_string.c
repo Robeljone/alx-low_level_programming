@@ -17,6 +17,6 @@ for(i < 0; i < halfleng; i++)
 {
 char temp = s[i];
 s[i] = s[last_pos - 1];
-s[last_pos] =  tmp
+s[last_pos] =  temp;
 }
 }
