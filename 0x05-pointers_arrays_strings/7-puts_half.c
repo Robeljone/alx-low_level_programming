@@ -16,7 +16,7 @@ leng++;
 leng = (leng - 1) / 2;
 while (str[++leng])
 {
-putchar(str[leng]);
+_putchar(str[leng]);
 }
-putchar('\n');
+_putchar('\n');
 }
