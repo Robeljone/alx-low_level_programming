@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+* rev_string -change value using the pointer address
+*
+*@s: stores the input
+*/
 void rev_string(char *s)
 {
 int i = 0;
@@ -14,7 +18,7 @@ length++;
 }
 last_pos= length - 1;
 halfleng = length/2;
-for(i > 0; i < halfleng; i++)
+for(i >= 0; i < halfleng; i++)
 {
 char temp = s[i];
 s[i] = s[last_pos - 1];
