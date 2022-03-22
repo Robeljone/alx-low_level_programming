@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * puts_half -change value using the pointer address
 *
@@ -16,7 +17,7 @@ leng++;
 leng = (leng - 1) / 2;
 while (str[++leng])
 {
-_putchar(str[leng]);
+putchar(str[leng]);
 }
-_putchar('\n');
+putchar('\n');
 }
