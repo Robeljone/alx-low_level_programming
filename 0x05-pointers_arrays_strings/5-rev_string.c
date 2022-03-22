@@ -22,5 +22,6 @@ char temp = s[i];
 s[i] = s[last_pos];
 s[last_pos] =  temp;
 i++;
+lastpos--;
 }
 }
