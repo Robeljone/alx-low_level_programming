@@ -21,7 +21,8 @@ halfleng = length/2;
 while(i < length)
 {
 char temp = s[i];
-s[i] = s[last_pos - 1];
+//
+s[i] = s[last_pos];
 s[last_pos] =  temp;
 i++;
 }
