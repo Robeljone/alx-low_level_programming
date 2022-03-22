@@ -2,7 +2,8 @@
 
 void rev_string(char *s)
 {
-int i,len,last_pos;
+int i = 0;
+int last_pos;
 int length = 0;
 int halfleng;
 char *temp = s;
@@ -13,7 +14,7 @@ length++;
 }
 last_pos= length - 1;
 halfleng = length/2;
-for(i < 0; i < halfleng; i++)
+for(i >= 0; i < halfleng; i++)
 {
 char temp = s[i];
 s[i] = s[last_pos - 1];
