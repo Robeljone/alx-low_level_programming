@@ -11,7 +11,7 @@ int leng = 0;
 int half;
 while(str[i])
 {
-leng++
+leng++;
 }
 leng = (leng - 1) / 2;
 while (str[++leng])
