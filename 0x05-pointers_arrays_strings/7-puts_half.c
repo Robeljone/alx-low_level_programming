@@ -9,7 +9,6 @@ void puts_half(char *str)
 {
 int i=0;
 int leng = 0;
-int half;
 while(str[i])
 {
 leng++;
