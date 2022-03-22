@@ -14,7 +14,7 @@ c++;
 }
 for (i = 0; i < c; i += 2)
 {
-_putchar(str[i]);
+putchar(str[i]);
 }
-_putchar('\n');
+putchar('\n');
 }
