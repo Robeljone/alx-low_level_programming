@@ -17,7 +17,7 @@ temp++;
 length++;
 }
 last_pos= length - 1;
-halfleng = length/2;
+halfleng = length - 1/2;
 while(i < halfleng)
 {
 char temp = s[i];
