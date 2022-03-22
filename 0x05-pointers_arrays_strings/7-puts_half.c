@@ -14,7 +14,7 @@ while(str[i])
 leng++;
 }
 leng = (leng - 1) / 2;
-while (str[++leng])
+while (str[leng++])
 {
 putchar(str[leng]);
 }
