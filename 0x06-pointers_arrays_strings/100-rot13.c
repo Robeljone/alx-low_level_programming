@@ -9,31 +9,30 @@
 char *rot13(char *c)
 {
 int e;
-	while((c=getchar())!=EOF)
-	{
-		if(c >='A' && c <='Z')
-		{
-			if((e = c + ROT) <= 'Z')
-				_putchar(e);
-			else
-			{
-				   e = c - ROT;
-				_putchar(e);
-			}
-		}
-		else if(c >='a' && c <='z')
-		{
-			if((e= c + ROT) <= 'z')
-				_putchar(e);
-			else
-			{
-				e = c - ROT;
-				_putchar(e);
-			}
-		}
-		else
-			_putchar(c);
-	}
-
+while((c=getchar())!=EOF)
+{
+if(c >='A' && c <='Z')
+{
+if((e = c + ROT) <= 'Z')
+_putchar(e);
+else
+{
+e = c - ROT;
+_putchar(e);
+}
+}
+else if(c >='a' && c <='z')
+{
+if((e= c + ROT) <= 'z')
+_putchar(e);
+else
+{
+e = c - ROT;
+_putchar(e);
+}
+}
+else
+_putchar(c);
+}
 return (c);
 }
