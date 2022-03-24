@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * charac - determines if character is a deliminater character
  * @c: char to check on
