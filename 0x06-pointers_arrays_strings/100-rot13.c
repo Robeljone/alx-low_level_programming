@@ -14,25 +14,25 @@ while((c=getchar())!=EOF)
 if(c >='A' && c <='Z')
 {
 if((e = c + ROT) <= 'Z')
-_putchar(e);
+putchar(e);
 else
 {
 e = c - ROT;
-_putchar(e);
+putchar(e);
 }
 }
 else if(c >='a' && c <='z')
 {
 if((e= c + ROT) <= 'z')
-_putchar(e);
+putchar(e);
 else
 {
 e = c - ROT;
-_putchar(e);
+putchar(e);
 }
 }
 else
-_putchar(c);
+putchar(c);
 }
 return (c);
 }
