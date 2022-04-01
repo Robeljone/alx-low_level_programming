@@ -5,10 +5,8 @@
  * @argv: string
  * Return: name of file
  */
-int main(int argc, char *argv[])
+int main(int argc, char __attribute__((__unused__)) *argv[])
 {
-int counter;
-for(counter=0; counter<argc; counter++)
-printf("argv[%2d]: %s\n",counter,argv[counter]);
+printf("argc[%2d]\n"argc - 1);
 return 0;
 }
