@@ -1,5 +1,10 @@
 #include <stdio.h>
-
+/**
+ * main - print name of the file
+ * @argc: length of the argument
+ * @argv: string
+ * Return: name of file
+ */
 int main(int argc, char *argv[])
 {
 int counter;
