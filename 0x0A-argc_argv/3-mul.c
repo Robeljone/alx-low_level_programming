@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 int num1;
 int num2;
 int total;
-if (argc < 0)
+if (argc < 3)
 {
 print ("%s\ln",Error);
 return (1);
