@@ -11,6 +11,5 @@ struct dog
 char *name;
 float range;
 char *owner
-}
-
+};
 #endif
