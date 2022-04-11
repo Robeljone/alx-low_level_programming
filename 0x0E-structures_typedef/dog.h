@@ -1,18 +1,16 @@
-#include <stdio.h>
-#include <stdlib.h>
+#ifdef DOG_H
+#define DOG_H
 /**
  * struct - define the  struct
- *
- * 
+ *@name: name
+ *@age: age
+ * @owner: owner 
  */
 struct dog
 {
-char name;
+char *name;
 float range;
-char owner
+char *owner
 }
 
-int main (void)
-{
-return 0;
-}
+#endif
