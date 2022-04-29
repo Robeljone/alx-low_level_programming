@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * flip_bits - flip bits and count num of flips
  * @n: int
