@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <limits.h>
 /**
  * print_binary - print binary number
