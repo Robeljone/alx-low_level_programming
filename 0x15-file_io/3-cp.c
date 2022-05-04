@@ -50,7 +50,7 @@ exit(100);
 fd2 = close(fd2);
 if (fd2 == -1)
 {
-printf(STDERR_FILENO, "Error: Can't close fd %d\n", fd2);
+dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd2);
 exit(100);
 }
 return (0);
