@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 /**
  * print_dlistint - prints all elements of dlistint
  * @h: pointer to first node of list
