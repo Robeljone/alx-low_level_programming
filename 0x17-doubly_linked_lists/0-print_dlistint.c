@@ -1,13 +1,19 @@
-#!/usr/bin/python3
+#include "lists.h"
+/**
+ * print_dlistint - prints all elements of dlistint
+ * @h: pointer to first node of list
+ * Return: num of elements
+ */
+size_t print_dlistint(const dlistint_t *h)
+{
+	int i;
 
-
-def size_t print_dlistint(const dlistint_t *h)
-	size_t nbr_nodes = 0;
-	const dlistint_t *current = h;
-	while (current != NULL)
+	i = 0;
+	while (h != NULL)
 	{
-		printf("%i\n", current->n);
-		current = current->next;
-		nbr_nodes++;
+		printf("%d\n", h->n);
+		h = h->next;
+		i++;
 	}
-	return (nbr_nodes);
+	return (i);
+}
